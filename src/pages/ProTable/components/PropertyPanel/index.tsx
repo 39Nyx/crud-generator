@@ -1,6 +1,6 @@
 import React from 'react';
 import { Tabs, type TabsProps } from 'antd';
-import { PropertiesConfig } from '@/pages/Tech/components/PropertiesConfig'
+import { PropertiesConfig } from '@/pages/ProTable/components/PropertiesConfig';
 
 export const PropertyPanel: React.FC = () => {
   const items: TabsProps['items'] = [
