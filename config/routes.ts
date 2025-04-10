@@ -12,14 +12,14 @@
  */
 export default [
   {
-    name: '界面设计',
+    name: 'ProTable',
     icon: 'tool',
-    path: '/tech',
-    component: './Tech/index.tsx',
+    path: '/pro-table',
+    component: './ProTable/index.tsx',
   },
   {
     path: '/',
-    redirect: '/tech',
+    redirect: '/pro-table',
   },
   {
     path: '*',
